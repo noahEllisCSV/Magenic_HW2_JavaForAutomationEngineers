@@ -16,8 +16,8 @@ public class RectangleTest {
 
         Rectangle rectangle = new Rectangle();
         // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        rectangle.setWidth(intendedWidth);
-//        rectangle.setLength(intendedLength);
+        rectangle.setWidth(intendedWidth);
+        rectangle.setLength(intendedLength);
         rectangle.getWidth();
         rectangle.getLength();
         Assert.assertEquals(rectangle.getWidth(), intendedWidth);
@@ -34,8 +34,8 @@ public class RectangleTest {
 
         Rectangle rectangle = new Rectangle();
         // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        rectangle.setWidth(intendedWidth);
-//        rectangle.setLength(intendedLength);
+        rectangle.setWidth(intendedWidth);
+        rectangle.setLength(intendedLength);
         rectangle.getWidth();
         rectangle.getLength();
         Assert.assertEquals(rectangle.getWidth(), 0.0);
@@ -51,9 +51,9 @@ public class RectangleTest {
         double length = 5;
         Rectangle rectangle = new Rectangle();
         // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        rectangle.setWidth(width);
-//        rectangle.setLength(length);
-//        Assert.assertEquals(rectangle.area(), width * length);
+        rectangle.setWidth(width);
+        rectangle.setLength(length);
+        Assert.assertEquals(rectangle.area(), width * length);
     }
 
     /**
@@ -65,8 +65,8 @@ public class RectangleTest {
         double length = 9;
         Rectangle rectangle = new Rectangle();
         // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        rectangle.setWidth(width);
-//        rectangle.setLength(length);
-//        Assert.assertEquals(rectangle.perimeter(), 2 * width + 2 * length);
+        rectangle.setWidth(width);
+        rectangle.setLength(length);
+        Assert.assertEquals(rectangle.perimeter(), 2 * width + 2 * length);
     }
 }
